@@ -1,0 +1,255 @@
+Unity Editor version:    2020.3.30f1 (1fb1bf06830e)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3.1 (Build 21E258)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/dingpupu/Desktop/HealthSys-main
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56357
+Successfully changed project path to: /Users/dingpupu/Desktop/HealthSys-main
+/Users/dingpupu/Desktop/HealthSys-main
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 49.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/dingpupu/Desktop/HealthSys-main/Assets
+GfxDevice: creating device client; threaded=0
+2022-05-25 14:03:20.886 Unity[34749:576075] Color LCD preferred device: Intel(R) UHD Graphics 617 (low power)
+2022-05-25 14:03:20.886 Unity[34749:576075] Metal devices available: 1
+2022-05-25 14:03:20.886 Unity[34749:576075] 0: Intel(R) UHD Graphics 617 (low power)
+2022-05-25 14:03:20.887 Unity[34749:576075] Using device Intel(R) UHD Graphics 617 (low power)
+Initializing Metal device caps: Intel(R) UHD Graphics 617
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56749
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000470 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 49.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Domain Reload Profiling:
+	ReloadAssembly (976ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (774ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001437 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/dingpupu/Desktop/HealthSys-main/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.653 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1654ms)
+		BeginReloadAssembly (266ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1290ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (473ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (449ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.006400 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.020023 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Initializing Unity extensions:
+2022-05-25 14:03:24.481 Unity[34749:576075] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000027d8b60 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-05-25 14:03:24.486 Unity[34749:576075] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000027ca300 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.9 MB.
+System memory in use after: 179.1 MB.
+
+Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 2055.
+Total: 5.249462 ms (FindLiveObjects: 0.233059 ms CreateObjectMapping: 0.091293 ms MarkObjects: 4.164994 ms  DeleteObjects: 0.759113 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Setting.unity
+  artifactKey: Guid(0f0b8e8ea8e9e4e36ad0732c163efef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Setting.unity using Guid(0f0b8e8ea8e9e4e36ad0732c163efef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd44c520a58797800e671b02f7c4df2') in 0.022747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Scenes/Menu-food.unity
+  artifactKey: Guid(9b3f58dd83eb488438b0a00bddfbb5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu-food.unity using Guid(9b3f58dd83eb488438b0a00bddfbb5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482f19d315600fd5367df40658989ed7') in 0.002087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 830.172923 seconds.
+  path: Assets/Scenes/Menu-food.unity
+  artifactKey: Guid(9b3f58dd83eb488438b0a00bddfbb5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu-food.unity using Guid(9b3f58dd83eb488438b0a00bddfbb5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074736d3ca3eca866e607db6999179f4') in 0.013250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.071115 seconds.
+  path: Assets/Scenes/Home.unity
+  artifactKey: Guid(d89841caf9386044ba14f1b42904aaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Home.unity using Guid(d89841caf9386044ba14f1b42904aaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20476f1ff5c5a9e00526e1203d2bfdfd') in 0.005560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.409368 seconds.
+  path: Assets/Scenes/Setting.unity
+  artifactKey: Guid(0f0b8e8ea8e9e4e36ad0732c163efef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Setting.unity using Guid(0f0b8e8ea8e9e4e36ad0732c163efef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd156f6ac9d7acc76a0f893fbdf9b3de5') in 0.002840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.599099 seconds.
+  path: Assets/Scenes/Home.unity
+  artifactKey: Guid(d89841caf9386044ba14f1b42904aaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Home.unity using Guid(d89841caf9386044ba14f1b42904aaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81166749628088851e483b26ba593d62') in 0.007055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.730783 seconds.
+  path: Assets/Scenes/Login_in.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Login_in.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1efd3ad41873e86ca6dcbde6b5f77ea') in 0.002927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.808931 seconds.
+  path: Assets/Scenes/Menu-food.unity
+  artifactKey: Guid(9b3f58dd83eb488438b0a00bddfbb5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu-food.unity using Guid(9b3f58dd83eb488438b0a00bddfbb5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c06827a8674355f45d4c7e96f84cc9') in 0.002488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 107.173221 seconds.
+  path: Assets/Scenes/Picture.unity
+  artifactKey: Guid(9a1b25c8da9be46e6bbdd9aaa11b6fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Picture.unity using Guid(9a1b25c8da9be46e6bbdd9aaa11b6fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4897e79d3b331791aa9c9bf4f958ce93') in 0.005235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 497.333133 seconds.
+  path: Assets/Images/notes.png
+  artifactKey: Guid(a083ff95ba52a4668bc5284abfbbe393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/notes.png using Guid(a083ff95ba52a4668bc5284abfbbe393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6810614a80b5ac7342d2b58d7a1d1b91') in 0.363738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.093839 seconds.
+  path: Assets/Scenes/Menu-food.unity
+  artifactKey: Guid(9b3f58dd83eb488438b0a00bddfbb5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu-food.unity using Guid(9b3f58dd83eb488438b0a00bddfbb5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1124ef09dcb86a6f53f34cf676eccc9c') in 0.004892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.116899 seconds.
+  path: Assets/Scenes/Setting.unity
+  artifactKey: Guid(0f0b8e8ea8e9e4e36ad0732c163efef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Setting.unity using Guid(0f0b8e8ea8e9e4e36ad0732c163efef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d95387e0de3c1338c3adee4be4ba8b2') in 0.005907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.008451 seconds.
+  path: Assets/Scenes/Picture.unity
+  artifactKey: Guid(9a1b25c8da9be46e6bbdd9aaa11b6fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Picture.unity using Guid(9a1b25c8da9be46e6bbdd9aaa11b6fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a1af6d1f19d6ed2342a8d4511d688f') in 0.006752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 139.164603 seconds.
+  path: Assets/Scenes/Picture.unity
+  artifactKey: Guid(9a1b25c8da9be46e6bbdd9aaa11b6fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Picture.unity using Guid(9a1b25c8da9be46e6bbdd9aaa11b6fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f882cb4b30032b5996d2400558d2c86') in 0.005729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 372.439031 seconds.
+  path: Assets/Scenes/Picture.unity
+  artifactKey: Guid(9a1b25c8da9be46e6bbdd9aaa11b6fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Picture.unity using Guid(9a1b25c8da9be46e6bbdd9aaa11b6fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ef38978734abc942753165827d6b94') in 0.004863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.875015 seconds.
+  path: Assets/Scenes/Picture-load-in.unity
+  artifactKey: Guid(9a1b25c8da9be46e6bbdd9aaa11b6fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Picture-load-in.unity using Guid(9a1b25c8da9be46e6bbdd9aaa11b6fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22714f04d8478d0b0eab9cebe3e60e93') in 0.004024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.584360 seconds.
+  path: Assets/Scenes/Home.unity
+  artifactKey: Guid(d89841caf9386044ba14f1b42904aaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Home.unity using Guid(d89841caf9386044ba14f1b42904aaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f83526431a70a3c96315d09ebaa368c') in 0.004348 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
