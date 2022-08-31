@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#936363"
+        android:text="Camera"
+        android:textAllCaps="false"
+        android:textColor="#EAEAEA"
+        android:textSize="21sp"
+        android:textStyle="normal"
+        android:translationX="20sp"
+        android:translationY="500sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#936363"
+        android:text="Album"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#EAEAEA"
+        android:textSize="21sp"
+        android:textStyle="normal"
+        android:translationX="20sp"
+        android:translationY="547sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="320dp"
+        android:layout_height="261dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:translationX="20sp"
+        android:translationY="50sp" />
+
+    <TextView
+        android:id="@+id/classified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prediction result:"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:translationX="10sp"
+        android:translationY="320sp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#454040"
+        android:textSize="21sp"
+        android:textStyle="normal"
+        android:translationX="60sp"
+        android:translationY="380sp" />
+
+</RelativeLayout>
